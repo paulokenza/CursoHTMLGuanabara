@@ -1,19 +1,33 @@
 @charset "UTF-8";
 
-body{ background-color: white;
+body{ background-color: #dddddd;
 	  color: black;
-	}
+}
+
+div#interface{
+	width: 900px;
+	background-color: white;
+	margin: -20px auto 10px auto;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+	padding: 10px 10px 10px 10px;
+}	
 p {
 	text-align: justify;
 	text-indent: 50px;
-   }		
+}		
+
+header#cabeçalho img#icone {
+	position: absolute;
+	left: 780px;
+	top: 40px;
+}
 /* Formatação de imagens com legendas */
 
 figure.foto-legenda{
 	position:relative;
 	border: 8px solid white;
-	box-shadow: 1px 1px 4px black;
-	}
+	box-shadow: 0px 0px 10px black;
+}
 
 figure.foto-legenda img{
 	width: 100%;
@@ -36,4 +50,39 @@ figure.foto-legenda:hover figcaption{
 	opacity: 1;
 	
 }
- 
+/* Formatação do Menu */
+mav#menu {
+	display: block; /*permite que seja exibido como bloco*/
+}
+
+nav#menu ul{
+	list-style: none; /*Seta estilo de lista para nenhum*/
+	text-transform: uppercase;	/*coloca os itens em caixa alta*/
+	position: absolute; /*posicionamento para passar sobre os demais conteudos, extravaza para qualquer posição da tela*/
+	top: -20px;
+	left: 300px;
+} 
+nav#menu li{
+	display: inline-block; /*coloca os itens em formação de linha horizontal */
+	background-color: #dddddd; 
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s; /*só funciona no chrome;*/
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration:none;
+}
+
+nav#menu a:hover{
+	color: #ffffff;
+	text-decoration: underline; /*opcional, deixa o hover com link com underline*/
+}

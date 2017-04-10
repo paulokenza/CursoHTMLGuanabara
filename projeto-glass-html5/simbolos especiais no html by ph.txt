@@ -1,0 +1,42 @@
+<!-- Este é um comentário -->	
+
+<h1>Simbolos especiais</h1>
+	&lt; <!-- menor que --> 
+    &gt; <!-- maior que -->
+	&le; <!-- menor ou igual a -->
+	&ge; <!-- maior ou igual a --> 
+	<br/>
+	&pound; <!-- Libra -->
+	&yen; <!-- Yene -->
+	&euro; <!-- euro -->
+	<br/>
+	&copy; <!-- copyright -->
+	&reg;  <!-- marca registrada -->
+	&trade;<!-- Trademark -->
+	<br/>
+	&permil;<!-- permil (divisao por mil) -->
+	&sum;   <!-- soma -->
+	&infin; <!-- infinito -->
+	&times; <!-- multiplicacao -->
+	&plusmn;<!-- mais ou menos -->
+	&oplus; <!-- mais circle -->
+	&radic; <!-- raiz quadrada -->
+	&ne;    <!-- diferente -->
+	<br/>
+	&delta;  <!-- delta low case -->
+	&Delta;  <!-- Delta up case -->
+	&lambda; <!-- lambda -->
+	&omega;  <!-- omega -->
+	&phi;    <!-- phi -->
+	<br/>
+	&larr;	 <!-- left arrow -->
+	&rarr;   <!-- right arrow -->
+	&uarr;	 <!-- up arrow -->	
+	&darr;   <!-- down arrow --> 
+	&harr;   <!-- both sides arrow -->
+<!-- Colocar a letra inicial das arrow em maiuscula, faz com que apareca uma arrow diferente -->
+	<br/>
+	&spades; <!-- espadas -->
+	&clubs;  <!-- paus -->
+	&hearts; <!-- Copas -->
+	&diams;  <!-- Ouros -->
